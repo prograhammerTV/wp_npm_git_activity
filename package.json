@@ -1,0 +1,21 @@
+{
+  "name": "wp_npm_git_activity",
+  "version": "1.0.0",
+  "description": "NPM and GIT activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "server": "live-server"
+  },
+  "keywords": [],
+  "author": "JosephJayanthony Baticos",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "live-server": "^1.2.1"
+  }
+}
